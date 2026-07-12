@@ -7,8 +7,8 @@ pool:
 variables:
   serviceConnection: 'azure-resource-manager-service-connection'
   resourceGroup: 'tf-backend-rg'
-  storageAccount: 'tfstatebackendfile'
-  containerName: 'tfstate'
+  storageAccount: 'tfstatebackendfile1'
+  containerName: 'tfstate1'
   stateKey: 'aks-cluster.tfstate'
 
 stages:
